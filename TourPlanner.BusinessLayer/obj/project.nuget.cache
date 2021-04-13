@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCs41xUamvI95vDom3Jx71h0s/b+PqhhBCVbUTVarPa6O8cG8ZcN1B2FTM4belv0mFDF94UokNTtEY3/euk9ag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\burak_y46me01\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\burak_y46me01\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
