@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
-      "projectName": "TourPlanner.DataAccessLayer",
-      "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj",
+      "projectName": "TourPlanner.DAL",
+      "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj",
       "packagesPath": "C:\\Users\\burak_y46me01\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",

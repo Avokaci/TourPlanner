@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
-      "projectName": "TourPlanner.BusinessLayer",
-      "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BL.csproj",
+      "projectName": "TourPlanner.BL",
+      "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BL.csproj",
       "packagesPath": "C:\\Users\\burak_y46me01\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",

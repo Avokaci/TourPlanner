@@ -1,0 +1,9 @@
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.UI.csprojAssemblyReference.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\MainWindow.g.cs
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\AddTourWindow.g.cs
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\ChangeTourWindow.g.cs
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\App.g.cs
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner_MarkupCompile.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner_MarkupCompile.lref
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.exe
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.pdb
