@@ -25,6 +25,28 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "TourPlanner.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "TourPlanner.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TourPlanner.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourPlanner.DAL.dll": {}
+        }
+      },
+      "TourPlanner.UI/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TourPlanner.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourPlanner.UI.dll": {}
+        }
       }
     }
   },
@@ -172,11 +194,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "TourPlanner.DAL/1.0.0": {
+      "type": "project",
+      "path": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj",
+      "msbuildProject": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj"
+    },
+    "TourPlanner.UI/1.0.0": {
+      "type": "project",
+      "path": "../TourPlanner/TourPlanner.UI.csproj",
+      "msbuildProject": "../TourPlanner/TourPlanner.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "TourPlanner.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -204,7 +237,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj": {
+              "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,3 @@
-C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.UI.csprojAssemblyReference.cache
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\MainWindow.g.cs
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\AddTourWindow.g.cs
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\ChangeTourWindow.g.cs
@@ -7,3 +6,14 @@ C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPl
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner_MarkupCompile.lref
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.exe
 C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.pdb
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\bin\Debug\TourPlanner.exe.config
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\bin\Debug\TourPlanner.exe
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\bin\Debug\TourPlanner.pdb
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\MainWindow.baml
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\AddTourWindow.baml
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\Views\ChangeTourWindow.baml
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.g.resources
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.Properties.Resources.resources
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.UI.csproj.GenerateResource.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.UI.csproj.CoreCompileInputs.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner\obj\Debug\TourPlanner.UI.csprojAssemblyReference.cache

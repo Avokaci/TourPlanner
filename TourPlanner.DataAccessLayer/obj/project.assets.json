@@ -25,6 +25,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "TourPlanner.UI/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TourPlanner.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourPlanner.UI.dll": {}
+        }
       }
     }
   },
@@ -172,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "TourPlanner.UI/1.0.0": {
+      "type": "project",
+      "path": "../TourPlanner/TourPlanner.UI.csproj",
+      "msbuildProject": "../TourPlanner/TourPlanner.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "TourPlanner.UI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -204,7 +219,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner\\TourPlanner.UI.csproj": {
+              "projectPath": "C:\\Users\\burak_y46me01\\OneDrive\\Desktop\\TourPlanner\\TourPlanner\\TourPlanner.UI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

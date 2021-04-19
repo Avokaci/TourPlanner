@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,19 +14,26 @@ namespace TourPlanner.Views
 {
     public class MainViewModel: BaseViewModel
     {
-        //instances
+        #region Instances
         private ObservableCollection<Tour> tours;
         private ObservableCollection<DataGridItem> logs;
         private Tour tour;
-        private string serachBar;
-        public ICommand searchCommand = new RelayCommand(o => {Search}, o => true);
-        public ICommand clearCommand = new RelayCommand(o => {Clear}, o => true);
+        private string searchText;
 
-        //properties
+        #endregion
+
+        #region Properties
+        public IEnumerable<Tour> MyFilteredItems
+        {
+            get
+            {
+                if (searchText == null) return tours;
+
+                return tours.Where(x => x.Name.ToUpper().StartsWith(searchText.ToUpper()));
+            }
+        }
         public ObservableCollection<Tour> Tours { get => tours; set => tours = value; }
-        public ObservableCollection<DataGridItem> Logs { get => logs; set => logs = value; }
-        
-
+        public ObservableCollection<DataGridItem> Logs { get => logs; set => logs = value; }   
         public Tour Tour
         {
             get
@@ -41,23 +49,47 @@ namespace TourPlanner.Views
                 }
             }
         }
-
-        public string SerachBar
+        public string SearchText
         {
             get
             {
-                return SerachBar;
+                return searchText;
             }
             set
             {
-                if (SerachBar != value)
+                if (searchText != value)
                 {
-                    SerachBar = value;
-                    RaisePropertyChangedEvent(nameof(SerachBar));
+                    searchText = value;
+                    RaisePropertyChangedEvent("SearchText");
+                    RaisePropertyChangedEvent("MyFilteredItems");
                 }
             }
         }
 
+        private ICommand popUpAdd;
+        public ICommand PopUpAdd => popUpAdd ??= new RelayCommand(OpenAddTourWindow);
+
         
+        #endregion
+
+        #region Constructor
+        public MainViewModel()
+        {
+            Tour ex1 = new Tour("Tour-1","Das ist route1","Salzburg-Wien",1250);
+            Tour ex2 = new Tour("Tour-2", "Das ist route2", "wien-Graz", 300);
+
+            tours = new ObservableCollection<Tour>() { ex1,ex2};
+            logs = new ObservableCollection<DataGridItem>();
+        }
+        #endregion
+
+        #region Methods
+        private void OpenAddTourWindow(object commandParameter)
+        {
+            AddTourWindow atw = new AddTourWindow();
+            atw.ShowDialog();
+        }
+        #endregion
+
     }
 }

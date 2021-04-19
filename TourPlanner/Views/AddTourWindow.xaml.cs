@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TourPlanner.Views
@@ -18,11 +17,13 @@ namespace TourPlanner.Views
     /// <summary>
     /// Interaction logic for AddTourWindow.xaml
     /// </summary>
-    public partial class AddTourWindow : Page
+    public partial class AddTourWindow : Window
     {
         public AddTourWindow()
         {
             InitializeComponent();
+            this.DataContext = new AddTourViewModel();
+
         }
     }
 }

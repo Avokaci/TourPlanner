@@ -1,0 +1,9 @@
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\bin\Debug\netstandard2.0\TourPlanner.BL.deps.json
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\bin\Debug\netstandard2.0\TourPlanner.BL.dll
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\bin\Debug\netstandard2.0\TourPlanner.BL.pdb
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.csprojAssemblyReference.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.AssemblyInfoInputs.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.AssemblyInfo.cs
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.csproj.CoreCompileInputs.cache
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.dll
+C:\Users\burak_y46me01\OneDrive\Desktop\TourPlanner\TourPlanner.BusinessLayer\obj\Debug\netstandard2.0\TourPlanner.BL.pdb

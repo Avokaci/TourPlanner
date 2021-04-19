@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace TourPlanner.Views
 {
-    public class ChangeTourViewModel
+    public class ChangeTourViewModel:BaseViewModel
     {
+        #region instances
+        #endregion
+        #region properties
+        #endregion
+        #region constructor
+        #endregion
+        #region methods
+        #endregion
     }
 }

@@ -16,6 +16,7 @@ namespace TourPlanner.Views
             {
                 this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
+           
         }
 
       
